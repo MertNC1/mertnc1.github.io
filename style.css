@@ -1,198 +1,202 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    user-select: none;
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  user-select: none;
 }
 
-.profile{
-    align-items: center;
-    border-radius: 50%;
-    width: 96px; 
-    height: 96px;
+.profile {
+  align-items: center;
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
 }
 
-
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 12px;
-    max-width: 1200px;
-    margin-top: 100px;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 1200px;
+  margin-top: 100px;
 }
-b{
-    font-size: 27px;
-    color: #ffffff;
-    text-align: center;
-    font-weight: 700;
+b {
+  font-size: 27px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
 }
-body{
-    display: flex;justify-content: center; align-items: center; flex-direction: column;
-    background: rgb(0,17,101);
-    background: radial-gradient(circle, rgba(0,17,101,1) 0%, rgba(0,0,0,1) 100%);
-}
-
-ul{
-    color: aliceblue;
-    cursor: pointer;
-    display: flex;
-    justify-content:    center ;
-    flex-direction: column;
-    align-items: center;
-    width: 300px;
-    gap: 11px;
-    
-}
-button{
-    background-color: #ffffff20;
-    border: 1px solid #474747;
-    border-radius: 10px;
-    width: 280px;
-    height: 44px;
-    color: #7097e9;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
-    user-select: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-}
-a{
-    color: #c0c0c0;
-    text-decoration: none;
-  
-}
-li{
-   
-    list-style: none;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(0, 17, 101);
+  background: radial-gradient(
+    circle,
+    rgba(0, 17, 101, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
-button:hover{
-    background-color: #57575760;
-    color: rgb(255, 255, 255);
-    transition: 500ms;
+ul {
+  color: aliceblue;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  gap: 11px;
 }
-.Author{
-    font-family: "Caveat", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
+button {
+  background-color: #ffffff20;
+  border: 1px solid #474747;
+  border-radius: 10px;
+  width: 280px;
+  height: 44px;
+  color: #7097e9;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
-.Author:hover{
-    color: #4400ff;
-    cursor: pointer;
-    user-select: none;
+a {
+  color: #c0c0c0;
+  text-decoration: none;
 }
-.icon{
-    width: 36px;
-    height: 36px;
+li {
+  list-style: none;
 }
-.avatar{
-    width:32px;
-    height: 32px;
+
+button:hover {
+  background-color: #57575760;
+  color: rgb(255, 255, 255);
+  transition: 500ms;
 }
-.linkedin{
-    color: #0e76a8;
+.Author {
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
 }
-.twitch{
-    color: #6441a5;
+.Author:hover {
+  color: #4400ff;
+  cursor: pointer;
+  user-select: none;
 }
-i{
-    font-size: 24px;
+.icon {
+  width: 36px;
+  height: 36px;
 }
-.github{
-    color: #171515;
+.avatar {
+  width: 32px;
+  height: 32px;
 }
-.steam{
-    color: #ffffff;
+.linkedin {
+  color: #0e76a8;
 }
-.discord{
-    color: #7289da;
+.twitch {
+  color: #6441a5;
 }
-.spotify{
-    color: 	#1DB954;
+i {
+  font-size: 24px;
 }
-.cnw{
-    width: 28px;
-    height: 28px;
+.github {
+  color: #171515;
 }
-.description{
-    div{
+.steam {
+  color: #ffffff;
+}
+.discord {
+  color: #7289da;
+}
+.spotify {
+  color: #1db954;
+}
+.oyunesiri {
+  width: 28px;
+  height: 28px;
+}
+.description {
+  div {
     font-family: "Caveat", serif;
     font-optical-sizing: auto;
     font-style: italic;
     font-size: 30px;
     color: #9a869c;
     text-align: center;
-    }
+  }
 }
 
 @media screen and (max-width: 1200px) {
-
-    .container{
+  .container {
     gap: 45px;
-}
-    button{
-        border-radius: 25px;
-        width: 600px;
-        height:124px;
-        font-size: 48px;
-        font-weight: 400;
-        gap: 28px;
-    }
-    ul{
-        gap: 20px;
-    }
-.profile{
+  }
+  button {
+    border-radius: 25px;
+    width: 600px;
+    height: 124px;
+    font-size: 48px;
+    font-weight: 400;
+    gap: 28px;
+  }
+  ul {
+    gap: 20px;
+  }
+  .profile {
     width: 288px;
     height: 288px;
-}
-b{
+  }
+  b {
     font-size: 75px;
     font-weight: 500;
-}
-.description{ div{
-    font-size: 65px;
-    font-family: 'Caveat';
-    font-style: italic;
-    font-weight: 400;
-    font-display: swap;
-u{
-    font-size: 65px;
-    font-family: 'Caveat';
-    font-style: italic;
-    font-weight: 400;
-    font-display: swap;
-}}
-}
-.cnw{
+  }
+  .description {
+    div {
+      font-size: 65px;
+      font-family: "Caveat";
+      font-style: italic;
+      font-weight: 400;
+      font-display: swap;
+      u {
+        font-size: 65px;
+        font-family: "Caveat";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+      }
+    }
+  }
+  .cnw {
     width: 56px;
     height: 56px;
-}
-.icon{
+  }
+  .icon {
     width: 72px;
     height: 72px;
-}
-.avatar{
-    width:72px;
-    height: 72px;
-}
-i{
-    font-size: 52px;
-}
-.Author{
-    font-size: 45px;
-}
-
   }
+  .avatar {
+    width: 72px;
+    height: 72px;
+  }
+  i {
+    font-size: 52px;
+  }
+  .Author {
+    font-size: 45px;
+  }
+}
